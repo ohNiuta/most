@@ -59,18 +59,6 @@ h1>b {
 .elementor-54372 .elementor-element.elementor-element-fbac533 p {
     color: #ffffff;
 }
-		.elementor-element-0bef4a1.elementor-widget-heading, .elementor-element-fbac533.elementor-widget-text-editor, .elementor-54372 .elementor-element.elementor-element-dd77211 > .elementor-widget-container {
-		margin-bottom:25px;
-	}
-	.elementor-54372 .elementor-element.elementor-element-1829a2a {
-    padding:0;
-	}
-	.elementor-54372 .elementor-element.elementor-element-1829a2a .elementor-row {
-	margin:0 25px;
-	}
-	.elementor-54372 .elementor-element.elementor-element-b606922 > .elementor-element-populated {
-	padding: 50px 50px 25px;
-}
 /*form section*/
 /*timeline section*/
 	.elementor-element-67f407c   .elementor-row .elementor-element.elementor-inner-column .elementor-widget-text-editor:first-child p, 	.elementor-element-67f407c   .elementor-row .elementor-element.elementor-inner-column .elementor-widget-text-editor:first-child{
@@ -275,7 +263,17 @@ h1 {
 }	
 	/*pricing section*/
 
+	.elementor-54372 .elementor-element.elementor-element-1829a2a {
+    padding:0;
+	margin:0 25px;
+	}
 
+	.elementor-54372 .elementor-element.elementor-element-dd77211 > .elementor-widget-container {
+    margin: 25px 0px 28px 0px;
+}
+	.elementor-54372 .elementor-element.elementor-element-b606922 > .elementor-element-populated {
+	padding: 50px;
+}
 	/*form section*/
 	.elementor-54372 .elementor-element.elementor-element-8736efd {
     margin: 100px 25px 50px;
@@ -322,18 +320,23 @@ h1 {
 			.elementor-54372 .elementor-element.elementor-element-07228d9 .elementor-nav-menu--main ul li:last-child {
  		display:none;   
 }
+		/*three boxes*/
+		.elementor-54372 .elementor-element.elementor-element-e9e3cb9 {
+    padding:25px 0px;
+}
+		.elementor-54372 .elementor-element.elementor-element-e9e3cb9 .elementor-row {
+			margin:0px 0px 0px 50px;
+		}
+.elementor-54372 .elementor-element.elementor-element-66412a3 > .elementor-element-populated {
+    padding-left:0px;
+}
+		.elementor-element-922aea3.elementor-inner-column> .elementor-element-populated {
+			padding-right:0px;
+		}
 	/*CLONED section learn more + gif */
 			section.elementor-element-f40c8de.learn-more {
 		display:none;
 	}
-		/*pricing*/
-			.elementor-element-1829a2a.pricing_section.elementor-inner-section {
-		padding:0px;
-		margin:0px;
-	}
-.elementor-element-1829a2a.pricing_section .elementor-element-b606922.elementor-inner-column {
-			margin:0px 50px;
-		}
 	}
 @media (max-width:1024px) {
 	/*top banner*/
@@ -356,7 +359,9 @@ h1 {
 		.elementor-54372 .elementor-element.elementor-element-0bef4a1 h2.elementor-heading-title {
     font-size: 35px;
 }
-
+		.elementor-element-0bef4a1.elementor-widget-heading {
+		margin-bottom:25px;
+	}
 .elementor-54372 .elementor-element.elementor-element-fbac533 p {
     color: #ffffff;
 		font-size:18px;
@@ -446,7 +451,10 @@ h1 {
     padding: 0px;
 }
 	/*pricing*/
-
+	.elementor-element-1829a2a.pricing_section.elementor-inner-section {
+		padding:0;
+		margin:0 50px;
+	}
 	/*lets get started*/
 .elementor-54372 .elementor-element.elementor-element-8736efd {
     margin:100px 50px 50px;
@@ -508,9 +516,7 @@ h1 {
 .elementor-54372 .elementor-element.elementor-element-e9e3cb9 {
 	padding:30px 0px;
 	}
-	.elementor-54372 .elementor-element.elementor-element-e9e3cb9 > .elementor-container {
-    margin:0 50px;
-}
+
 	/*gif section*/
 	.elementor-54372 .elementor-element.elementor-element-0c721d2 {
    max-width:1280px;
